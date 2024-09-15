@@ -1,0 +1,44 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* height: 400px; */
+    max-width: 600px;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 5rem auto;
+    box-shadow: 0 0 10px 2px black;
+}
+.count{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.count .count-num{
+    color:  rgb(37, 188, 188);
+}
+.count-steps{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.btn-box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.btn-box button{
+    padding: 7px 1.2rem;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(37, 188, 188);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    padding: 1rem;
+}
+.sign-up-section .updated-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sign-up-section form{
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px 0 black;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+.sign-up-section form input{
+    width: 100%;
+    padding: 6px 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(227, 225, 225, 0.632);
+}
+.policy-text p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+.second-name,.email,.phone-number,.password{
+    margin-top: 10px;
+}
+.submit-btn .submit{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+}
